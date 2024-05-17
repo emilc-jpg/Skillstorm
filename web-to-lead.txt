@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+        
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: auto;
+        }
+        .banner {
+            width: 100%;
+            height: 200px; /* Adjust height as needed */
+            background-image: url('https://skillpointe.com/sites/default/files/inline-images/two_wind_turbine_techs_safety_equipment_wind_turbine_technician_training.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .title {
+            font-size: 24px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .container {
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        input[type="submit"], button {
+            background-color: #4CAF50; /* Green background */
+            color: white; /* White text */
+            border: none;
+            cursor: pointer;
+            padding: 10px 15px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        hr {
+            margin: 20px 0;
+            border: none;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<div class="banner"></div>
+
+<div class="title">
+    EERE Small Business Program Application
+</div>
+
+<div class="container">
+    <hr>
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Daj000005SjQm" method="POST">
+
+        <input type="hidden" name="oid" value="00Daj000005SjQm">
+        <input type="hidden" name="retURL" value="http://">
+
+        <label for="first_name">First Name</label>
+        <input id="first_name" maxlength="40" name="first_name" size="20" type="text" />
+
+        <label for="last_name">Last Name</label>
+        <input id="last_name" maxlength="80" name="last_name" size="20" type="text" />
+
+        <label for="phone">Phone</label>
+        <input id="phone" maxlength="40" name="phone" size="20" type="text" />
+
+        <label for="email">Email</label>
+        <input id="email" maxlength="80" name="email" size="20" type="text" />
+
+        <label for="company">Company</label>
+        <input id="company" maxlength="40" name="company" size="20" type="text" />
+
+        <label for="url">Website</label>
+        <input id="url" maxlength="80" name="url" size="20" type="text" />
+
+        <label for="00Naj000002BeFV">NAICS Code</label>
+        <select id="00Naj000002BeFV" name="00Naj000002BeFV" title="NAICS Code">
+            <option value="">--None--</option>
+            <option value="333316: Photographic and Photocopying Equipment Manufacturing">333316: Photographic and Photocopying Equipment Manufacturing</option>
+            <option value="519130: Internet Publishing and Broadcasting and Web Search Portals">519130: Internet Publishing and Broadcasting and Web Search Portals</option>
+            <option value="541330: Engineering Services">541330: Engineering Services</option>
+            <option value="541512: Computer Systems Design Services">541512: Computer Systems Design Services</option>
+            <option value="541519: Other Computer Related Services">541519: Other Computer Related Services</option>
+            <option value="541611: Administrative Management and General Management Consulting Services">541611: Administrative Management and General Management Consulting Services</option>
+            <option value="541618: Other Management Consulting Services">541618: Other Management Consulting Services</option>
+            <option value="541690: Other Scientific and Technical Consulting Services">541690: Other Scientific and Technical Consulting Services</option>
+            <option value="541820: Public Relations Agencies">541820: Public Relations Agencies</option>
+            <option value="561210: Facilities Support Services">561210: Facilities Support Services</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <label for="revenue">Annual Revenue</label>
+        <input id="revenue" name="revenue" size="20" type="text" />
+
+        <label for="employees">Employees</label>
+        <input id="employees" name="employees" size="20" type="text" value="" />
+
+        <label for="00Naj000002Bg4P">Region</label>
+        <select id="00Naj000002Bg4P" name="00Naj000002Bg4P" title="Region">
+            <option value="">--None--</option>
+            <option value="Midwest US">Midwest US</option>
+            <option value="Northeast US">Northeast US</option>
+            <option value="South US">South US</option>
+            <option value="West US">West US</option>
+        </select>
+
+        <label for="00Naj000002M8vR">Product/Service</label>
+        <input id="00Naj000002M8vR" maxlength="30" name="00Naj000002M8vR" size="20" type="text" />
+
+
+        <label for="description">Description</label>
+        <textarea name="description"></textarea>
+
+        <div>
+            <input type="submit" name="submit">
+            <button type="button" onclick="window.location.href='mailto:ereeoffice@gmail.com';">Contact Us</button>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
